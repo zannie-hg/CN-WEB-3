@@ -1,0 +1,157 @@
+
+html, body{
+	margin:0;
+	font-size: 100%;
+	font-family: 'Lato', sans-serif;
+	background: #fff;
+}
+body a {
+	text-decoration:none;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+a:hover{
+ text-decoration:none;
+}
+input[type="button"],input[type="submit"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+}	
+p{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+
+
+
+
+/*-- header-bot --*/
+.header-left img {
+    width: 73%;
+}
+.header-middle {
+    margin-top: 11px;
+}
+.header-bot {
+    padding: 25px 0;
+}
+
+
+.section_room select {
+    padding: 13px 10px;
+    width: 100%;
+    font-weight: normal;
+    background: none;
+    border: none;
+    color: #848484;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 0;
+    background: url(../images/arrow.png) no-repeat 92% center #ffffff;
+    background-size: 5% !important;
+    -webkit-appearance: none;
+}
+
+.search {
+    float: left;
+    width: 57%;
+}
+.section_room{
+    float: left;
+    width: 33%;	
+}
+.sear-sub{
+    float: right;
+    width: 10%;		
+}
+
+
+.section_room select option {
+    line-height: 1.8em;
+}
+
+
+
+
+
+	.coupons-gd h3 {
+		font-size: 19px;
+	}
+	.coupons-gd h4 {
+		font-size: 14px;
+		margin: 29px 0 14px;
+	}
+	.coupons-gd p {
+		font-size: 13px;
+	}
+	.coupons {
+		min-height: 365px;
+		padding-top: 77px;
+	}
+	
+
+@media (max-width: 991px){
+	.footer-bottom a span {
+    width: 23%;
+    left: 14px;
+}
+	.header-left,.header-right {
+		float: left;
+		width: 31%;
+	}
+	.header-middle {
+		float: left;
+		width: 38%;
+	}
+	.section_room {
+		float: left;
+		width: 48%;
+	}
+	.search {
+		float: left;
+		width: 35%;
+	}
+	.sear-sub {
+		float: right;
+		width: 17%;
+	}
+	
+	
+	
+	.coupons-gd {
+		float: left;
+		width: 33.333%;
+		padding: 0 10px;
+	}
+	.coupons-gd:nth-child(1) {
+		width: 100%;
+		float: none;
+		padding:0;
+	}
+	.coupons-gd h3 {
+		margin: 0 0 30px;
+	}	
+	.coupons {
+		min-height: 400px;
+		padding-top: 60px;
+	}
+	
+	
+}
